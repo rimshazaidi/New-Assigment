@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	
+	<title>Assignment</title>
+
+	
+	<link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+
+	<script src='index.js'></script>
+</head>
+<body bgcolor="#4cf61880">
+	<h1 class="h1" style="color: black; font-size: 50px; margin-bottom: 0%; scroll-behavior: left;">Please Enter Valid Information</h1>
+	<form id="firstForm" method="GET">	
+	<div>	
+		    <label id="myLabel">First Name:</label>
+		    <input type="text" name="firstName" id="firstName" required=""><br><br>
+	</div>
+
+	<div>
+			 <label>Last Name:</label>
+			 <input type="text" name="lastName" id="lastName"><br><br>
+	</div>
+
+	<div>
+			<label>E-mail:</label>
+			<input type="email" name="eMail" id="eMail"><br><br>
+	</div>
+	<div>
+		<label>Password:</label>
+		<input type="password" name="mypassword" id="mypassword"><br><br>
+</div>
+	<div>
+					<label>Gender:</label>
+					<select id="gender"> 
+						<option value="Male">Male </option>
+						<option value="Female">Female</option>
+					</select><br><br>
+	</div>
+	<div>
+			<label id="myEducation">Education:</label>
+			<input type="radio" name="myMatric" value="matric" id="myMatric">Matric
+			<input type="radio"name="myMatric" value="inter" id="myMatric1">Inter
+			<input type="radio"name="myMatric" id="myMatric2">BSCS<br><br>
+		
+	 </div>
+	 <div>
+		 <label id="myHobbies">Hobbies:</label>
+		 <input type="checkbox" value="Learning"> Learning
+		 <input type="checkbox" value="Listening"> Listening
+		 <input type="checkbox" value="Reading"> Reading<br><br>
+	 </div>
+	<div>
+			<label>Phone Number:</label>
+			<input type="number" name="myNumber" id="myNumber"><br><br>
+	</div>
+	<div>
+			<label id="sumission">Submission Date:</label>
+			<input type="date" name="submissionDate" id="submissionDate"><br><br>
+	</div>
+	<div>
+			<label>Submission Time:</label>
+			<input type="time" name="submissionTime" id="submissionTime"><br><br>
+		</div>
+		<div>
+				<input type="submit" value="submit"><br>>
+
+
+		<Button type="button" name="submit" onclick="FormSubmit()">Verify Again!!
+		</Button>
+		
+    </div>
+	</form>
+	
+	<div id="dynamicTable" ></div>
+	
+
+	
+</body>
+</html>
